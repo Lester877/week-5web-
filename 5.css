@@ -1,0 +1,98 @@
+/* this is Lester, my CSS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #464646;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #858587;
+}
+
+nav a {
+    color: rgb(19, 19, 19);
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #495057;
+}
+
+.main-content {
+    padding: 20px;
+    border: 2px solid #6c757d;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #c6c8ca;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.button {
+    background-color: #f4f7fa;
+    color: rgb(151, 148, 148);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+.main-content {
+    padding: 20px;
+    border: 2px solid #6c757d;
+    margin: 20px;
+    border-radius: 8px;
+    text-align: center; /* Center text */
+}
+
+.main-content img {
+    display: block; /* Make images block elements */
+    margin: 0 auto; /* Center images */
+}
+
+h2, h3 {
+    text-align: center; /* Center headings */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+ul li {
+    margin: 10px 0; /* Add some spacing between list items */
+}
